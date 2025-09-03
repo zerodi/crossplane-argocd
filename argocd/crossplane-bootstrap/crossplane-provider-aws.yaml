@@ -11,9 +11,9 @@ spec:
     path: upbound/provider-aws/provider
     repoURL: https://github.com/zerodi/crossplane-argocd
     targetRevision: HEAD
-destination:
-  namespace: default
-  server: https://kubernetes.default.svc
-syncPolicy:
-  automated:
-    prune: true
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  syncPolicy:
+    automated:
+      prune: true
