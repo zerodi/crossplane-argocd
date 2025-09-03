@@ -1,0 +1,9 @@
+apiVersion: v2
+type: application
+name: crossplane-argocd
+version: 0.0.0
+appVersion: 0.0.0
+dependencies:
+  - name: crossplane
+    repository: https://charts.crossplane.io/stable
+    version: 2.0.2
